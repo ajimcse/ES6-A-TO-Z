@@ -13,9 +13,32 @@ const fruits = ["Apple", "Banana"];
 const newFruits = [...fruits, 'Mango', 'Orange'];
 // console.log(newFruits)
 
-const a = [1, 2];
-const b = [3, 4];
+const aa = [1, 2];
+const bb = [3, 4];
 
-const c = [...a, 100, ...b];
+const c = [...aa, 100, ...bb];
 
-console.log(c);
+// console.log(c);
+// const person = {
+//     name: "Ajim",
+//     age: 25
+// };
+// const copy ={
+//     ...person
+// }
+// console.log(person)
+// console.log(copy)
+
+
+const student = {
+    name: "Rahim",
+    roll: 10
+};
+
+const newStudent = {
+    ...student,
+    roll: 20,
+    class: 10
+};
+
+console.log(newStudent);
