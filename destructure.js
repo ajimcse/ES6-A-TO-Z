@@ -5,3 +5,11 @@ const person ={
 }
 const {age} = person
 console.log(age)
+
+
+ const numbers = [10, 20, 30];
+
+ const first = numbers[0];
+ const third = numbers[2];
+
+ console.log(first, third);
