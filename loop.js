@@ -11,5 +11,12 @@ const glass = {
     isCleand: true
 }
 for(const key in glass){
-    console.log(key)
+    // console.log(key)
+}
+const keys = Object.keys(glass);
+// console.log(keys)
+
+for(const key of keys){
+    const value = glass[key]
+    console.log(key, value)
 }
