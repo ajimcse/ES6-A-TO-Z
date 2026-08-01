@@ -60,7 +60,7 @@ const result = getFullName(firstName, lastName);
 //     return sum / 3;
 // }
 const getAverage = (a, b, c) => {
-   const sum= a+ b + c;
+    const sum = a + b + c;
     return sum / 3
 }
 const result11 = getAverage(12, 42, 55);
