@@ -22,7 +22,8 @@ const users = [
   { name: "Rahim", age: 30 }
 ];
 
-const result = users.map(user => user.name);
+// const result = users.map(user => user.name);
+const result = users.map(user => user.age);
 console.log(result);
 
 
