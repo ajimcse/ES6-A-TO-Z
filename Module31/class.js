@@ -16,3 +16,4 @@ class Teacher {
 }
 const ajim = new Teacher('ajimsorka', 'math');
 console.log(ajim)
+
