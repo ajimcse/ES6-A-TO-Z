@@ -15,3 +15,4 @@ const person1 = {
 const key = "age";
 
 console.log(person1[key]);
+
