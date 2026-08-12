@@ -4,3 +4,4 @@ const user = {
     selary=50000,
     age: 25
 }
+// Allpiction Programming Interface 
