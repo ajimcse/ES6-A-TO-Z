@@ -8,7 +8,9 @@ function loadUserData2(users) {
      for(const user of users){
        console.log(user.username);
         const li = document.createElement('li');
-        li.innerText= user.name;
+        li.innerText= `
+        User Name:${user.name}
+        User gmail: ${user.email}`;
         ul.appendChild(li)
      }
 }
