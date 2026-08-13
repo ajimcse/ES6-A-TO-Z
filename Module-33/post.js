@@ -1,5 +1,5 @@
 function loadPosts() {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+            fetch("https://jsonplaceholder.typicode.com/posts")
         .then(res => res.json())
         .then(data => displayPosts(data))
 
@@ -9,8 +9,7 @@ function displayPosts(postsData) {
     for (const post of postsData) {
        const div = document.createElement('div')
 div.classList.add('post')
-
-div.innerHTML = `
+ div.innerHTML = `
     <h4>Post ID: ${post.id}</h4>
     <h5>Post Title: ${post.title}</h5>
     <p>Post Description: ${post.body}</p>
