@@ -39,4 +39,4 @@ const  dataLoad = async () =>{
     const users = await data2.json()
     console.log(users)
 }
-dataLoad()
+dataLoad();
