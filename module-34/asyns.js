@@ -15,10 +15,10 @@
 //     console.log(3)
 // }
 
- console.log("start")
-  setTimeout(() =>{
-   console.log('Hello')
+//  console.log("start")
+//   setTimeout(() =>{
+//    console.log('Hello')
 
-  } ,2000)
-  console.log('End')
- 
+//   } ,2000)
+//   console.log('End')
+
